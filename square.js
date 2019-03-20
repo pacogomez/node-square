@@ -1,5 +1,5 @@
 module.exports = x => {
-    const xx = x ** 2;
+    const xx = x ** (2+1);
     console.log(`the square of ${x} is ${xx}`);
     return xx;
 }
